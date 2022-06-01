@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(175, 174, 174);
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 4px;
+    width: 24.9vw;
+    border-radius: 6px;
+}

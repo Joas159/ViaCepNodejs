@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Localização</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./script.js" defer ></script>
+</head>
+
+<body>
+    <h1>Formulário de Consulta por CEP</h1>
+    <form action="">
+        <div class="DIVcep">
+            <label for="cep">CEP</label> <br>
+            <input id="cep" type="number" placeholder="77760000 (77.760-000) somente números" minlength="8" required>
+        </div>
+
+        <div class="DIVestado">
+            <label for="estado">Estado (UF)</label> <br>
+            <input id="estado" type="text" placeholder="UF -> TO" minlength="2" required>
+        </div>
+
+        <div class="DIVcidade">
+            <label for="cidade">Cidade</label> <br>
+            <input id="cidade" type="text" placeholder="Brasília" minlength="4">
+        </div>
+
+        <div class="DIVrua">
+            <label for="rua">Rua</label> <br>
+            <input id="rua" type="text" placeholder="Avenida Sem Nome" minlength="5">
+        </div>
+
+        <div class="DIVibge">
+            <label for="ibge">Número do Registro IBGE</label> <br>
+            <input id="ibge" type="number" placeholder="3550308" minlength="7">
+        </div>
+    </form>
+</body>
+</html>
